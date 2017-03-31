@@ -1,2 +1,13 @@
 C:\Users\Vivian\Desktop\xml_find\xml_find\bin\Debug\xml_find.exe.config
 C:\Users\Vivian\Desktop\k105-2\xml_find\xml_find\bin\Debug\xml_find.exe.config
+C:\Users\Vivian\Desktop\k105-2\xml_find\xml_find\bin\Debug\xml_find.exe
+C:\Users\Vivian\Desktop\k105-2\xml_find\xml_find\bin\Debug\xml_find.pdb
+C:\Users\Vivian\Desktop\k105-2\xml_find\xml_find\obj\Debug\xml_find.csprojResolveAssemblyReference.cache
+C:\Users\Vivian\Desktop\k105-2\xml_find\xml_find\obj\Debug\xml_find.exe
+C:\Users\Vivian\Desktop\k105-2\xml_find\xml_find\obj\Debug\xml_find.pdb
+C:\Users\Vivian\Documents\Visual Studio 2015\Projects\k105-2\xml_find\xml_find\bin\Debug\xml_find.exe.config
+C:\Users\Vivian\Documents\Visual Studio 2015\Projects\k105-2\xml_find\xml_find\obj\Debug\xml_find.exe
+C:\Users\Vivian\Documents\Visual Studio 2015\Projects\k105-2\xml_find\xml_find\obj\Debug\xml_find.pdb
+C:\Users\Vivian\Documents\Visual Studio 2015\Projects\k105-2\xml_find\xml_find\bin\Debug\xml_find.exe
+C:\Users\Vivian\Documents\Visual Studio 2015\Projects\k105-2\xml_find\xml_find\bin\Debug\xml_find.pdb
+C:\Users\Vivian\Documents\Visual Studio 2015\Projects\k105-2\xml_find\xml_find\obj\Debug\xml_find.csprojResolveAssemblyReference.cache
