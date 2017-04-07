@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using Models;
 
 namespace xml_find
 {
@@ -11,9 +12,11 @@ namespace xml_find
     {
         static void Main(string[] args)
         {
-            var playdata = FindPlays();
-
-            for (var j = 0; j < playdata.Count; j++)
+            //var playdata = FindPlays();
+            //SQL_Set(playdata);
+            SQL.SQL_Set db=new SQL.SQL_Set();
+            ShowPlay_SQL(db);
+            /*for (var j = 0; j < playdata.Count; j++)
             {
                 Console.WriteLine(playdata[j].number);
                 Console.WriteLine(playdata[j].title);
@@ -22,12 +25,16 @@ namespace xml_find
                 Console.WriteLine(playdata[j].travel);
                 Console.WriteLine(playdata[j].money);
                 Console.WriteLine(playdata[j].stay);
+                Console.WriteLine(playdata[j].CreateTime);
                 Console.WriteLine("----------------");
 
             }
-            Console.ReadLine();
+            Console.ReadLine();*/
 
         }
+
+        
+
         public static List<play> FindPlays()
         {
             List<play> plays = new List<play>();
@@ -61,6 +68,41 @@ namespace xml_find
                 plays.Add(playData);    //加到List
             });
             return plays;
+
+        }//FindPlays
+        public static void SQL_Set(List<play> sql_play)
+        {
+            SQL.SQL_Set db = new SQL.SQL_Set();
+
+
+            Console.WriteLine(string.Format("新增{0}筆拜訪部落的資料開始", sql_play.Count));
+            sql_play.ForEach(x =>
+            {
+
+                db.CreatePlay(x);
+
+
+            });
+            Console.WriteLine(string.Format("新增拜訪部落的資料結束"));
         }
-    }
-}
+        private static void ShowPlay_SQL(SQL.SQL_Set db)
+        {
+            List<Models.play> PlayGet = new List<play>();
+            PlayGet = db.ReadPlay();
+
+
+            for (var j = 0; j < PlayGet.Count; j++)
+            {
+                Console.WriteLine("第{0}筆資料", j + 1);
+                Console.WriteLine("標題：" + PlayGet[j].title);
+                Console.WriteLine("民族：" + PlayGet[j].people);
+                Console.WriteLine("所在地：" + PlayGet[j].adress);
+                Console.WriteLine("旅遊天數：" + PlayGet[j].travel);
+                Console.WriteLine("每人費用：" + PlayGet[j].money);
+                Console.WriteLine("住宿地點：" + PlayGet[j].stay);
+                //Console.WriteLine("----------------");
+            }
+            Console.ReadKey();
+        }
+    }//class
+}//xml
