@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SQL
 {
-    class SQL_Set
+    public class SQL_Set
     {
         private const string _connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Vivian\Documents\Visual Studio 2015\Projects\k105-2\GitHub\xml_find\xml_find\SQL_Data\PlaySQL.mdf;Integrated Security=True";
 

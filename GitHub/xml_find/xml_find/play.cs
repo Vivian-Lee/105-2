@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    class play
+    public class play
     {
         public string number { get; set; }
         public string title { get; set; }
