@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xml_find", "xml_find\xml_fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xml_Find2", "xml_Find2\xml_Find2.csproj", "{AADE5929-A39B-43A4-87BE-C8F3964A7FE4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{98C943CB-AB72-417E-B9B1-814F6C10C554}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AADE5929-A39B-43A4-87BE-C8F3964A7FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AADE5929-A39B-43A4-87BE-C8F3964A7FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AADE5929-A39B-43A4-87BE-C8F3964A7FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98C943CB-AB72-417E-B9B1-814F6C10C554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98C943CB-AB72-417E-B9B1-814F6C10C554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98C943CB-AB72-417E-B9B1-814F6C10C554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98C943CB-AB72-417E-B9B1-814F6C10C554}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

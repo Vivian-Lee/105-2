@@ -100,6 +100,7 @@ namespace xml_find
                 Console.WriteLine("旅遊天數：" + PlayGet[j].travel);
                 Console.WriteLine("每人費用：" + PlayGet[j].money);
                 Console.WriteLine("住宿地點：" + PlayGet[j].stay);
+                Console.WriteLine("建立時間：" + PlayGet[j].CreateTime);
                 //Console.WriteLine("----------------");
             }
             Console.ReadKey();
