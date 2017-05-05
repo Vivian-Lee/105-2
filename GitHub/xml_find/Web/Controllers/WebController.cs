@@ -20,7 +20,7 @@ namespace Web.Controllers
                 message += string.Format("標題：{0} <br/>  民族: {1} <br/>  所在地：{2} <br/>  旅遊天數: {3} <br/>  每人費用：{4} <br/>  住宿地點: {5} <br/>  建立時間: {6} <br/> <br/>", x.title, x.people, x.adress, x.travel, x.money, x.stay, x.CreateTime);
 
             });
-            return View();
+            return Content(message);
         }
     }
 }
