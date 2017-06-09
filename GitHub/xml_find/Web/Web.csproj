@@ -211,9 +211,9 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\xml_Find2\xml_Find2.csproj">
-      <Project>{aade5929-a39b-43a4-87be-c8f3964a7fe4}</Project>
-      <Name>xml_Find2</Name>
+    <ProjectReference Include="..\Models\Models.csproj">
+      <Project>{c80055c1-9217-43d7-a0b5-48a117f35314}</Project>
+      <Name>Models</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
